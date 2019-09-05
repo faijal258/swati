@@ -1,0 +1,209 @@
+
+   /* .applicant_profile_count{
+    position: absolute;
+      -webkit-mask-position-x: 14px;
+      top: 115px;
+      left: 12px;
+      width: 100px;
+      overflow: hidden;
+      display: inline-block;
+      -o-text-overflow: ellipsis;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      z-index: 1;
+      text-align: center;
+  }
+
+.policy_holder_count{
+    position: absolute;
+      -webkit-mask-position-x: 14px;
+      top: 115px;
+      left: 11px;
+      width: 100px;
+      overflow: hidden;
+      display: inline-block;
+      -o-text-overflow: ellipsis;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      z-index: 1;
+      text-align: center;
+  } */
+
+
+  .slider_btn{
+    background-color: #423eac;
+    color:white;
+    width: 100%;
+    /* margin-left: 3%; */
+    padding: 1%;
+    border-radius: unset;
+  }
+
+  .slider_btn_div{
+    margin: 0 auto;
+  }
+
+  .card{
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  }
+
+  .applicant_profile_count{
+    /* position: absolute;
+    margin: 67px 51px 0;
+    font-size: 14px; */
+    position: absolute;
+    -webkit-mask-position-x: 14px;
+    top: 53%;
+    left: 10%;
+    width: 100px;
+    overflow: hidden;
+    display: inline-block;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    z-index: 1;
+    text-align:left;
+  }
+
+  .policy_holders_count{
+    position: absolute;
+    margin: 67px 66px 0;
+    font-size: 14px;
+  }
+
+  .name_of_module {
+  background-color: rgb(51, 54, 69);
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 2%;
+  }
+  /* .legends-pie .recharts-legend-item-text {
+    font-size: 8px;
+    vertical-align: middle;
+  }
+  .legends-pie-1 .recharts-legend-item-text {
+    font-size: 8px;
+    vertical-align: middle;
+  } */
+  /* .recharts-surface{
+    width: 12px;
+    height: 12px;
+  } */
+
+/* MEDIA QUERY CSS STARTS HERE */
+  @media screen and (max-width: 992px) {
+    .summary-div {
+      border-bottom: 1px solid gray;
+    }
+  }
+
+
+  @media screen and (min-width: 1024px) {
+    .summary-div {
+      border-right: 1px solid gray;
+    }
+  }
+
+  @media screen and (min-width: 1366px) {
+    
+  }
+  @media screen and (min-width: 1600px) {
+    
+  }
+  @media screen and (min-width: 1920px) {
+    
+     .legends-pie-1 .recharts-legend-item-text { 
+       font-size: 8px !important;  
+       vertical-align:middle;
+         padding-left:1px;   
+       /* padding-right: 1px;  */
+    }  
+       
+    .recharts-default-legend{
+      font-size:12px !important;
+       padding-left: 5px; 
+    }
+    
+  }  
+   
+   @media screen and (min-width: 1080px) {
+   
+    .legends-pie-1 .recharts-legend-item-text {
+      font-size: 8px !important;
+       vertical-align:middle;  
+         padding-left: 1px !important;  
+         /* padding-right: 1px !important;  */
+    }
+        
+      .recharts-default-legend{
+        font-size:12px !important;
+        padding-left: 3px;
+      }
+    }  
+  
+  
+  @media screen and (min-width: 2048px) {
+   .legends-pie-1 .recharts-legend-item-text {
+      font-size: 11px !important;
+       vertical-align:center; 
+          padding-left: 1px !important;   
+          /* padding-right: 1px !important;   */
+     }     
+    
+      .recharts-default-legend{
+       font-size:13px; 
+        padding-left: 22px;  
+     } 
+  }
+
+  @media screen and (min-width: 1536px) {
+   .legends-pie-1 .recharts-legend-item-text {
+    font-size: 11px !important;
+     vertical-align:center; 
+        padding-left:1px !important;  
+      /* padding-right: 1px !important;   */
+   }   
+    .recharts-default-legend{
+     font-size:18px; 
+      padding-left: 22px;  
+   }  
+  
+  }
+
+  @media screen and (min-width:2732px) {
+   
+    .legends-pie-1 .recharts-legend-item-text {
+      font-size: 10px !important;
+       vertical-align:middle; 
+         padding-left: 1px !important;  
+        /* padding-right: 1px !important;  */
+    }  
+   
+
+    }
+
+  @media screen and (min-width:2048px) {
+    .legends-pie-1 .recharts-legend-item-text {
+       font-size: 10px !important;
+       vertical-align:middle; 
+         padding-left:1px !important;   
+         /* padding-right:1px  !important; */ 
+    }  
+    }
+
+      @media screen and (min-width:2048px) {
+        .legends-pie-1 .recharts-legend-item-text {
+           font-size: 10px !important;
+           vertical-align:middle; 
+             padding-left:1px !important;   
+             /* padding-right:1px  !important; */ 
+        }  
+       
+        }
+
+  @media screen and (min-width: 2560px) {
+    
+  }
+  
+
+  /* MEDIA QUERY CSS ENDS HERE */
